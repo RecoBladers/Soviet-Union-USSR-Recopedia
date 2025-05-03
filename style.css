@@ -1,0 +1,96 @@
+/* === Global Styles === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #111;
+  color: #eee;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header {
+  background: #8B0000;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.4);
+}
+
+header img {
+  width: 80px;
+  height: auto;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+header h1 {
+  display: inline;
+  font-size: 2.5rem;
+  vertical-align: middle;
+}
+
+section {
+  margin: 40px auto;
+  padding: 20px;
+  max-width: 1000px;
+  background-color: #222;
+  border-left: 6px solid crimson;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.2);
+}
+
+section h2 {
+  color: crimson;
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+}
+
+section p {
+  margin-bottom: 15px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  border-top: 2px solid crimson;
+  font-size: 1.1rem;
+  color: #aaa;
+}
+
+nav {
+  text-align: center;
+  margin-top: 20px;
+}
+
+nav a {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px 20px;
+  color: crimson;
+  background-color: #333;
+  border: 2px solid crimson;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+nav a:hover {
+  background-color: crimson;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+  section h2 {
+    font-size: 1.4rem;
+  }
+}
